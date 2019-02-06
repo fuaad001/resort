@@ -1,0 +1,103 @@
+h1{
+  text-align: center;
+  color: blue;
+  font-size: 3.5em;
+  font-family: fantasy;
+  font-style: oblique;
+}
+
+h2{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h3{
+  text-align: center;
+  font-family: cursive;
+}
+
+Nav ul{
+  text-align: center;
+}
+
+
+nav>ul>li{
+  display: inline-block;
+  margin: 1em;
+
+}
+
+nav>ul>li>a{
+  font-size: x-large;
+  font-family: Arial;
+  padding: 0.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+
+nav>ul>li>a:hover{
+  background-color: silver;
+  border: 1px solid silver;
+  box-shadow: 2px 2px 2px silver;
+}
+
+#main{
+  width: 79em;
+  /* padding: 0; */
+}
+
+#column{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#rightcolumn, #leftcolumn{
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  padding-left: 2em;
+  padding-right: : 2em;
+  padding-top: 0;
+}
+
+ul, ol{
+  padding-top: -1em;
+}
+
+#rightcolumn{
+  margin-left: 10em;
+}
+
+body{
+  /* font-size: x-large; */
+ text-align: center;
+}
+
+.contacts img{
+  width: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+table, tr, td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table{
+  display: flex;
+  justify-content: center;
+}
+
+.images{
+  display: inline-block;
+  padding: 2em;
+}
+
+.images img{
+  width: 20em;
+  height: 15em;
+  padding: 2em;
+}
