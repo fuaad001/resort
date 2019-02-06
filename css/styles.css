@@ -15,6 +15,8 @@ h2{
   font-family: sans-serif;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 0.5em;
+  margin-top: -0.0000000000002em;
+  /* margin-bottom: -0.00000000000002em; */
 }
 
 h3{
@@ -124,11 +126,13 @@ table{
 }
 
 body{
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 nav{
   background-color: rgba(255, 255, 255, 0.9);
+  margin-top: -0.2em;
+  margin-top: -0.2em;
 }
 
 #social{
